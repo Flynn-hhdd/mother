@@ -1,0 +1,88 @@
+@charset "utf-8";
+
+/*
+Design by http://www.templateaccess.com
+Released for free under a Creative Commons Attribution 3.0 License
+*/
+
+/* mainbar */
+.mainbar {
+	margin: 50px auto;
+	padding: 0;
+	width: 970px;
+}
+.mainbar img {
+	border: 1px solid #d8dbdc;
+}
+.mainbar img.fl {
+	margin: 4px 16px 4px 0;
+	float: left;
+}
+.mainbar .article {
+	margin: 50px 0 35px;
+	padding: 8px 24px 0;
+}
+.sidebar {
+	padding: 0;
+	float: right;
+	width: 288px;
+}
+.sidebar .gadget {
+	margin: 0 0 12px;
+	padding: 8px 16px 8px 24px;
+}
+ul.sb_menu, ul.ex_menu {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	color: #959595;
+}
+ul.sb_menu li, ul.ex_menu li {
+	margin: 0;
+}
+ul.sb_menu li {
+	padding: 4px 0;
+	width: 220px;
+}
+ul.ex_menu li {
+	padding: 4px 0;
+}
+ul.sb_menu li a, ul.ex_menu li a {
+	color: #959595;
+	text-decoration: none;
+	margin-left: -12px;
+	padding-left: 12px;
+}
+ul.sb_menu li a:hover, ul.ex_menu li a:hover {
+	color: #30b0d5;
+	font-weight: bold;
+}
+ul.sb_menu li a:hover {
+	text-decoration: underline;
+}
+ul.ex_menu li a:hover {
+	text-decoration: none;
+}
+p.pages {
+	padding: 32px 24px 12px;
+	font-size: 11px;
+	color: #959595;
+	text-align: right;
+}
+p.pages span, p.pages a:hover {
+	padding: 5px 10px;
+	color: #fff;
+	background-color: #30b0d5;
+	border: 1px solid #30b0d5;
+}
+p.pages a {
+	padding: 5px 10px;
+	color: #959595;
+	background-color: #fff;
+	border: 1px solid #edebeb;
+	text-decoration: none;
+}
+p.pages small {
+	font-size: 11px;
+	float: left;
+}
